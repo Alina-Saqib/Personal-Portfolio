@@ -3,35 +3,17 @@
 @tailwind utilities;
 
 .btn {
-  background: linear-gradient(
-    92.23deg,
-    #B809C3 20.43%,
-    #3d5a80 60.43%,
-    #a69cac 100%,
-    #ff56f6 117.04%
-  );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  background: #3498db;
+  box-shadow: 0px #126297;
 }
 
 .btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6  5.43%,
-    #a69cac  30.43%,
-    #3d5a80 100%,
-    #B809C3 117.04%
-  );
+  background: #126297
 }
 
 .gradient,
 .active {
-  background: linear-gradient(
-    92.23deg,
-    #B809C3 20.43%,
-    #3d5a80 60.43%,
-    #a69cac 100%,
-    #ff56f6 117.04%
-  );
+  background: #3498db;
 }
 
 .active {
@@ -63,7 +45,7 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#3498db] to-[#f5f5f5] font-bold font-primary hover:from-[#f5f5f5] hover:to-[#3498db];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
@@ -83,7 +65,7 @@
   height: 8px;
   border-radius: 6px;
   margin-top: 6px;
-  background: rgba(0, 0, 0, 0.233);
+  background: rgba(0, 0, 0, 0.404);
 }
 
 .skill-box .skill-per{
@@ -92,7 +74,7 @@
   height: 100%;
   width: 95%;
   border-radius: 6px;
-  background: #98c1d9;
+  background: #80b5d3;
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
@@ -124,6 +106,8 @@
 }
 
 
+
+
 @keyframes progress {
   0% {
       width: 0;
@@ -134,6 +118,8 @@
       opacity: 1;
   }
 }
+
+
 
 
 

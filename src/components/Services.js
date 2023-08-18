@@ -62,9 +62,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>HTML</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per html">
-                        <span className="tooltip">95%</span>
-                    </span>
+                    <span className="skill-per html"></span>
+                        <span className="tooltip mt-2">95%</span>
+                   
                 </div>
                     {/* <p className='font-secondary leading-tight'>{description}</p> */}
                    
@@ -79,9 +79,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>CSS</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per css">
-                        <span className="tooltip">85%</span>
-                    </span>
+                    <span className="skill-per css"></span>
+                        <span className="tooltip mt-2">85%</span>
+                  
                 </div>
                    
                    
@@ -92,9 +92,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>Javascript</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per javascript">
-                        <span className="tooltip">70%</span>
-                    </span>
+                    <span className="skill-per javascript"> </span>
+                        <span className="tooltip mt-2">70%</span>
+                    
                 </div>
                   
                    
@@ -106,9 +106,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>React JS</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per reactjs">
-                        <span className="tooltip">80%</span>
-                    </span>
+                    <span className="skill-per reactjs">   </span>
+                        <span className="tooltip mt-2">80%</span>
+                  
                 </div>
                   
                    
@@ -119,9 +119,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>Node JS</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per nodejs">
-                        <span className="tooltip">75%</span>
-                    </span>
+                    <span className="skill-per nodejs"></span>
+                        <span className="tooltip mt-2">75%</span>
+                    
                      </div>
                    
                   </div>
@@ -130,9 +130,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>Express JS</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per expressjs">
-                        <span className="tooltip">70%</span>
-                    </span>
+                    <span className="skill-per expressjs">  </span>
+                        <span className="tooltip mt-2">70%</span>
+                   
                      </div>
                    
                   </div>
@@ -141,9 +141,9 @@ const Services = () => {
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mb-3'>MongoDB</h4>
                      <div className="skill-bar lg:w-[110%]">
-                    <span className="skill-per mongodb">
-                        <span className="tooltip">80%</span>
-                    </span>
+                    <span className="skill-per mongodb">   </span>
+                        <span className="tooltip mt-2">80%</span>
+                  
                      </div>
                    
                   </div>
