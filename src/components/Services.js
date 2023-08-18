@@ -46,7 +46,7 @@ const Services = () => {
         viewport={{once: false , amount: 0.3}} 
          className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-9 lg:mb-0 h-[600px]'>
           <h2 className='h2 text-accent mb-2 mt-12'>My Skills.</h2>
-          <h3 className='h3 max-w-[455px] mb-5'>Passionate MERN Stack Developer  Dedicated to continuous learning and innovation.</h3>
+          <h3 className='h3 max-w-[455px] mb-3'>Passionate MERN Stack Developer  Dedicated to continuous learning and innovation.</h3>
           <Link to='work'><button className='btn btn-sm'>See my Work</button></Link>
         </motion.div>
         <motion.div  
@@ -60,7 +60,7 @@ const Services = () => {
             
                   <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>HTML</h4>
+                    font-primary font-semibold '>HTML</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per html"></span>
                         <span className="tooltip mt-2">95%</span>
@@ -77,7 +77,7 @@ const Services = () => {
 
                 <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>CSS</h4>
+                    font-primary font-semibold mt-8'>CSS</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per css"></span>
                         <span className="tooltip mt-2">85%</span>
@@ -90,7 +90,7 @@ const Services = () => {
 
                 <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>Javascript</h4>
+                    font-primary font-semibold mt-8'>Javascript</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per javascript"> </span>
                         <span className="tooltip mt-2">70%</span>
@@ -104,7 +104,7 @@ const Services = () => {
 
                 <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>React JS</h4>
+                    font-primary font-semibold mt-8'>React JS</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per reactjs">   </span>
                         <span className="tooltip mt-2">80%</span>
@@ -117,7 +117,7 @@ const Services = () => {
 
            <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>Node JS</h4>
+                    font-primary font-semibold mt-8'>Node JS</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per nodejs"></span>
                         <span className="tooltip mt-2">75%</span>
@@ -128,7 +128,7 @@ const Services = () => {
 
                   <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>Express JS</h4>
+                    font-primary font-semibold mt-8'>Express JS</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per expressjs">  </span>
                         <span className="tooltip mt-2">70%</span>
@@ -139,7 +139,7 @@ const Services = () => {
 
                   <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mb-3'>MongoDB</h4>
+                    font-primary font-semibold mt-8'>MongoDB</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per mongodb">   </span>
                         <span className="tooltip mt-2">80%</span>
