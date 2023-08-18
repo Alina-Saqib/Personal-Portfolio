@@ -25,7 +25,7 @@ const Banner = () => {
         </motion.h1>
         <motion.div variants={fadeIn("up",0.4)} initial='hidden' 
           whileInView={'show'} viewport={{once: false, amount: 0.7 }} 
-          className='mb-3 text-[30px] lg:text-[40px] 
+          className='mb-3 text-[25px] lg:text-[35px] 
         font-secondary font-semibold uppercase leading-[1] '>
           <span className='text-white mr-4'>I am a</span>
           <TypeAnimation 

@@ -77,7 +77,7 @@ const Services = () => {
 
                 <div className='max-w-[470px] skill-box'> 
                     <h4 className='text-[18px] tracking-wider 
-                    font-primary font-semibold mt-8'>CSS</h4>
+                    font-primary font-semibold mt-8 '>CSS</h4>
                      <div className="skill-bar lg:w-[110%]">
                     <span className="skill-per css"></span>
                         <span className="tooltip mt-2">85%</span>
@@ -137,7 +137,7 @@ const Services = () => {
                    
                   </div>
 
-                  <div className='max-w-[470px] skill-box'> 
+                  <div className='max-w-[470px] skill-box' > 
                     <h4 className='text-[18px] tracking-wider 
                     font-primary font-semibold mt-8'>MongoDB</h4>
                      <div className="skill-bar lg:w-[110%]">

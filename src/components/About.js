@@ -33,12 +33,12 @@ const About = () => {
             About me
           </h2>
           <h3 className='h3'>Passionate MERN Stack Developer</h3>
-          <p className='lg:mb-10 mb-12'>Enthusiastic about crafting seamless web experiences through the MERN stack, 
+          <p className='lg:mb-2 mb-4'>Enthusiastic about crafting seamless web experiences through the MERN stack, 
           bringing creative ideas to life with code.</p>
 
-            <div className='flex gap-x-6 lg-gap-x-10 mb-5'>
+            <div className='flex gap-x-6 lg-gap-x-10 mb-5 pt-8'>
               <div>
-              <div className='text-[40px] font-tertiary text-gradient
+              <div className='text-[35px] font-tertiary text-gradient
               mb-2'>
                 2k{inView ?
                   <CountUp start={0} end={23} duration={3}/>: null}
@@ -50,7 +50,7 @@ const About = () => {
               
               </div>
               <div>
-              <div className='text-[40px] font-tertiary text-gradient
+              <div className='text-[35px] font-tertiary text-gradient
               mb-2'>
                 {inView ?
                   <CountUp start={0} end={10} duration={3}/>: null}+
@@ -62,7 +62,7 @@ const About = () => {
               
               </div>
               <div>
-              <div className='text-[40px] font-tertiary text-gradient
+              <div className='text-[35px] font-tertiary text-gradient
               mb-2'>
                 {inView ?
                   <CountUp start={0} end={2} duration={3}/>: null}
