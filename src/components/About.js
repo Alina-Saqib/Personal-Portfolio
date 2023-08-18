@@ -33,7 +33,7 @@ const About = () => {
             About me
           </h2>
           <h3 className='h3'>Passionate MERN Stack Developer</h3>
-          <p className='mb-10'>Enthusiastic about crafting seamless web experiences through the MERN stack, 
+          <p className='lg:mb-10 mb-12'>Enthusiastic about crafting seamless web experiences through the MERN stack, 
           bringing creative ideas to life with code.</p>
 
             <div className='flex gap-x-6 lg-gap-x-10 mb-5'>
